@@ -1,31 +1,34 @@
----
-page_type: sample
-languages:
-- PowerApps
-products:
-- office-teams
-urlFragment: microsoft-teams-app-boards
----
+## Overview
 
-# Boards App Template
+With the Boards app, you and your team can create boards about anything — interests, initiatives, onboarding, etc. You can also post just about anything to a board—images, articles, websites, and even direct links to teams, channels, and specific discussion threads within Microsoft Teams. This flexibility makes sharing ideas and content discovery efficient and seamless. Refer [here](https://aka.ms/TeamsBoardsDocs) for more detailed view of the feature.
 
-| [Documentation]() | [Deployment guide]() | [Architecture]() |
-| ---- | ---- | ---- |
+Boards is a template application built on the [Datatverse for Teams](https://powerapps.microsoft.com/en-us/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) on the Power Platform. Once installed, it can be [customized and extended](https://docs.microsoft.com/en-us/powerapps/teams/customize-sample-apps) by the installer of the application.
 
+## Installing
+
+Detailed documentation for installation can be found in the [Documents](https://github.com/OfficeDev/microsoft-teams-apps-boards/tree/main/Documentation) folder. There are two ways to install the solution:
+
+**Recommended: Install in Teams**
+
+This is the easiest and quickest method to get started with this app template. You will get the option to chose which Teams team you'd like to install this application in. The provisioning is fully automated once the process starts and may take upto 2 - 3 minutes. If this is the first Power Apps in the team, a new Dataverse for Teams environment will be provisioned, the app installed, automatically shared with all members of the team and tabbed to the channel you had picked in the first step. You will be able to [edit the app](https://docs.microsoft.com/en-us/powerapps/teams/customize-sample-apps) after installation by going to the Power Apps app.
+
+Note that this provisions the 'managed' solution in the Teams environment. This means that you can take advantage of any future updates being made to the application by reinstalling the application (follow same steps as original installation).
+
+**Import the solution as unmanaged:**
+
+This option is for advanced makers already familiar with solutions and environments concepts in Dataverse. You can import the solution into Dataverse for Teams or Dataverse as unmanaged. By doing so, you get an unmanaged solution and will be able to make changes to all components of the application -- including underlying tables. Note that you will not be able to take advantage of future upgrades when importing solution as unmanaged.
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+This project welcomes contributions and suggestions for extension scenarios. Please submit ideas for extending this application to unique scenarios within the 'SampleExtensions' folder. As you submit these ideas, create a new folder within that section and add resources (flow, canvas app codebase etc.) along with detailed instructions on how to add the extension to the app.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+At this time, we are not accepting contributions to the core template app.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Trademarks
 
