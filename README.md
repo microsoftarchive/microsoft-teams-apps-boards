@@ -1,3 +1,5 @@
+# This repository has been archived. The code, app package, and Dataverse solution for this app can be found in the [microsoft/teams-powerapps-app-templates](https://github.com/microsoft/teams-powerapps-app-templates) open source repository.
+
 ## Overview
 
 With the Boards app, you and your team can create boards about anything — interests, initiatives, onboarding, etc. You can also post just about anything to a board—images, articles, websites, and even direct links to teams, channels, and specific discussion threads within Microsoft Teams. This flexibility makes sharing ideas and content discovery efficient and seamless. Refer [here](https://aka.ms/TeamsBoardsDocs) for more detailed view of the feature.
